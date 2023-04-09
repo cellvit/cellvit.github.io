@@ -14,7 +14,7 @@ import Team from "./Components/Team";
 import Header from "./Components/Header";
 import Model from "./Components/Model";
 import Results from "./Components/Results";
-import Footer from "./Components/Footer";
+
 
 
 const linksArray = ["home", "motivation", "datasets", "model", "results", "team", "references"];

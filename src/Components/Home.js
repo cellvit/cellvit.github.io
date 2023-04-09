@@ -3,7 +3,7 @@ import React from 'react'
 
 
 // MUI imports
-import { Button, Box, useMediaQuery, useTheme} from '@mui/material';
+import { Button, Box} from '@mui/material';
 
 //Components
 
@@ -38,8 +38,8 @@ import callpaintimage2 from './Assets/callpaintimage2.jpg';
 
 function Home() {
     
-    const theme = useTheme();
-    const isMatch = useMediaQuery(theme.breakpoints.down('md'));
+    
+    
     
   return (
     <>
