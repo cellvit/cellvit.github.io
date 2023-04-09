@@ -24,18 +24,14 @@ function Header({links}) {
     <AppBar sx={{backgroundImage:"linear-gradient(90deg, rgba(180,58,58,1) 2%, rgba(49,49,116,1) 36%, rgba(105,0,161,1) 73%, rgba(166,69,252,1) 100%)"}}>
   <Toolbar>
   {isMatch ? <>
-    {/* <Typography>
-      <ShoppingCartCheckoutIcon />
-      </Typography> */}
+    
       
       <Button><img src={Logo2Edited } alt="" width={isMatch ? "40%" : "60%" } onClick={() => navigate("/")}/></Button>
       {/* <Button color="inherit" onClick={() => navigate("/")}><Typography variant="h4">Cell<span style={{color: 'red'}}>ViT</span></Typography></Button> */}
     <DrawerComp links= {links} />
   </> : <Grid sx={{placeItems:'center'}}container>
     <Grid item xs={4}>
-      {/* <Typography>
-      <ShoppingCartCheckoutIcon />
-      </Typography> */}
+     
       <Button><img src={Logo2Edited } alt="" width={isMatch ? "100%" : "50%" } onClick={() => navigate("/")}/></Button>
       {/* <Button color="inherit" onClick={() => navigate("/")}><Typography variant="h4">Cell<span style={{color: 'red'}}>ViT</span></Typography></Button> */}
       {/* <img src={websitelogotransparent1 } onClick={() => navigate("/")}/ > */}
@@ -48,13 +44,7 @@ function Header({links}) {
       </Tabs>
     </Grid>
     <Grid item xs={1} />
-    {/* <Grid item sx={3}>
-      <Box display="flex">
-               
-        <Link href="https://github.com/cankoc95/cellvit" style={{ textDecoration: 'none' }}><Button sx={{marginLeft:"auto", background:'rgba(180,58,58,1)'}} variant="contained">Github Link</Button></Link> 
-              
-      </Box>
-    </Grid> */}
+    
 
   </Grid>}
     
