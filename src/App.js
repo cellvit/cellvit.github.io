@@ -26,13 +26,13 @@ function App() {
     <CssBaseline />
     <Header links={linksArray} />
     <Routes>
-    <Route path = '/' element= {<Home />}/>
-    <Route path = '/motivation' element= {<Motivation />}/>
-    <Route path = '/datasets' element= {<Datasets />}/>
-    <Route path = '/model' element= {<Model />}/>
-    <Route path = '/results' element= {<Results />}/>
-    <Route path = '/team' element= {<Team />}/>
-    <Route path = '/references' element= {<References />}/>     
+    <Route basename={process.env.PUBLIC_URL} path = '/' element= {<Home />}/>
+    <Route basename={process.env.PUBLIC_URL} path = '/motivation' element= {<Motivation />}/>
+    <Route basename={process.env.PUBLIC_URL} path = '/datasets' element= {<Datasets />}/>
+    <Route basename={process.env.PUBLIC_URL} path = '/model' element= {<Model />}/>
+    <Route basename={process.env.PUBLIC_URL} path = '/results' element= {<Results />}/>
+    <Route basename={process.env.PUBLIC_URL} path = '/team' element= {<Team />}/>
+    <Route basename={process.env.PUBLIC_URL} path = '/references' element= {<References />}/>     
     
     </Routes>
     
