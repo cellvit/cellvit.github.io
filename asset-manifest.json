@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/cellvit.github.io/static/css/main.9ca984df.css",
+    "main.js": "/cellvit.github.io/static/js/main.e74e21a5.js",
+    "static/js/787.49dadac4.chunk.js": "/cellvit.github.io/static/js/787.49dadac4.chunk.js",
+    "static/media/cell_painting_workflow.png": "/cellvit.github.io/static/media/cell_painting_workflow.9869af408653f61ffb14.png",
+    "static/media/oncogenmutation.JPG": "/cellvit.github.io/static/media/oncogenmutation.a229bc4992cd071d0f49.JPG",
+    "static/media/john.jpg": "/cellvit.github.io/static/media/john.cf099eecb35af0bd7c30.jpg",
+    "static/media/callpaintimage2.jpg": "/cellvit.github.io/static/media/callpaintimage2.8fc28f71d4fb61a6af43.jpg",
+    "static/media/drugiscoveryimage.JPG": "/cellvit.github.io/static/media/drugiscoveryimage.901e7d2b44f7b36f0f34.JPG",
+    "static/media/ope.JPG": "/cellvit.github.io/static/media/ope.047e053164269a6dbc78.JPG",
+    "static/media/Logo2Edited.png": "/cellvit.github.io/static/media/Logo2Edited.040d2c914b6c9708d1fe.png",
+    "static/media/chris.JPG": "/cellvit.github.io/static/media/chris.fab270b57117e4059d9c.JPG",
+    "static/media/cj.JPG": "/cellvit.github.io/static/media/cj.2b839255c4da1b39794f.JPG",
+    "index.html": "/cellvit.github.io/index.html",
+    "main.9ca984df.css.map": "/cellvit.github.io/static/css/main.9ca984df.css.map",
+    "main.e74e21a5.js.map": "/cellvit.github.io/static/js/main.e74e21a5.js.map",
+    "787.49dadac4.chunk.js.map": "/cellvit.github.io/static/js/787.49dadac4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ca984df.css",
+    "static/js/main.e74e21a5.js"
+  ]
+}
