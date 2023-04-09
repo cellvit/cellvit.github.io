@@ -1,5 +1,5 @@
 {
-  "homepage": "https://cellvit.github.io/cellvit.github.io",
+  
   "name": "cellvit.github.io",
   
   "version": "0.1.0",
@@ -58,9 +58,7 @@
   "test": "react-scripts test",
   
     
-  "eject": "react-scripts eject",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+  "eject": "react-scripts eject" 
   
   },
   
@@ -120,12 +118,7 @@
     
   ]
   
-  },
-  
-  "devDependencies": {
-  
-    
-  "gh-pages": "^5.0.0"
-  
   }
+  
+
 }
