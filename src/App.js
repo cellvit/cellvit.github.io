@@ -26,7 +26,7 @@ function App() {
     <CssBaseline />
     <Header links={linksArray} />
     <Routes>
-    <Route basename={process.env.PUBLIC_URL} path = '/' element= {<Home />}/>
+    <Route path = '/' element= {<Home />}/>
     <Route basename={process.env.PUBLIC_URL} path = '/motivation' element= {<Motivation />}/>
     <Route basename={process.env.PUBLIC_URL} path = '/datasets' element= {<Datasets />}/>
     <Route basename={process.env.PUBLIC_URL} path = '/model' element= {<Model />}/>
