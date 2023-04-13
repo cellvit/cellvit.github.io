@@ -54,7 +54,7 @@ function Home() {
 						left: "50px",
 						textAlign: "center",
 					}}>
-      <CustomizedTypographyRaleway fontSize={{lg:70, md:60, sm:45, xs:30}} style={{ color: "white", fontWeight: "bolder" }}>Welcome to CELLViT</CustomizedTypographyRaleway>
+      <CustomizedTypographyRaleway fontSize={{lg:70, md:60, sm:45, xs:30}} style={{ color: "white", fontWeight: "bolder" }}>Welcome to CellViT</CustomizedTypographyRaleway>
       <CustomizedTypographyRaleway variant="body1" paragraph fontSize={{lg:35, md:30, sm:20, xs:16}} style={{ color: "white", fontWeight: "bolder", align: "center" }}>Accelerating drug and biomarker discovery with AI-based cell painting</CustomizedTypographyRaleway> 
       
       <Button variant="outlined" color="error" href="https://huggingface.co/cellvit/maxvit-large-tf-224/tree/main" sx={{							           
