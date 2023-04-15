@@ -17,10 +17,10 @@ function Motivation() {
   const isMatch = useMediaQuery(theme.breakpoints.down('md'));
   return (
   <Box   
-  style={{marginTop:"2rem", }} 
+  style={{marginTop:"7rem", marginLeft:"auto", marginRight:"auto", marginBottom:"auto"}} 
   width="100%"
   >
-  <Box padding ={10} justifyContent="center" alignItems="center">
+  <Box justifyContent="center" alignItems="center">
   <Grid style={{margin:"auto", }} container spacing={3}>
   <Grid item xs={12} md= {5} lg={7}>
   <CustomizedTypographyRaleway fontWeight = "bold" fontSize={{ lg:30, md:25, sm:20, xs:18 }} padding={2} variant="h4">CellViT: Cell-painting Vision Transformer</CustomizedTypographyRaleway>
@@ -55,10 +55,10 @@ The goal of this project is to provide a proof of concept model using the multi-
   <Grid item xs={12} md= {7}>
   <img 
   src={cellpaintingassayworkflow} 
-  alt="drugiscoveryimage" 
+  alt="cellpaintingassayworkflow" 
   loading="lazy" 
   width={isMatch ? "100%" : "85%"}
-  style={{marginLeft:'10%'}}/>
+  />
   </Grid>
   <Grid item xs={12} md= {5}>
   <CustomizedTypographyRaleway fontWeight = "bold" fontSize={{ lg:30, md:25, sm:20, xs:18}} padding={2} variant="h5">Why does Cell Painting matter?</CustomizedTypographyRaleway>
@@ -97,14 +97,14 @@ The goal of this project is to provide a proof of concept model using the multi-
   </Grid>
 
 
-  <Grid style={{margin:"auto", }} container spacing={3}>  
+  <Grid style={{margin:"auto", }} container spacing={2}>  
   <Grid item xs={12} md= {7}>
   <img 
   src={cell_painting_image} 
-  alt="drugiscoveryimage" 
+  alt="cell_painting_image" 
   loading="lazy" 
   width={isMatch ? "100%" : "85%"}
-  style={{marginLeft:'10%'}}/>
+  />
   </Grid>
   <Grid item xs={12} md= {5}>
   <CustomizedTypographyRaleway fontWeight = "bold" fontSize={{ lg:30, md:25, sm:20, xs:18}} padding={2} variant="h5">What is a Cell Painting image? </CustomizedTypographyRaleway>

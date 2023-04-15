@@ -20,10 +20,11 @@ function Model() {
   const isMatch = useMediaQuery(theme.breakpoints.down('md'));
   return (
   <Box   
-  style={{marginTop:"2rem", }} 
+  style={{marginTop:"5rem", marginLeft:"auto", marginRight:"auto", marginBottom:"auto"}} 
   width="100%"
+  justifyContent="center"
   >
-  <Box padding ={10} justifyContent="center" alignItems="center">
+  <Box>
   <Grid style={{margin:"auto", }} container spacing={3}>
   <Grid item xs={12} md= {5} lg={7}>
   <CustomizedTypographyRaleway fontWeight = "bold" fontSize={{ lg:30, md:25, sm:20, xs:18 }} padding={2} variant="h4">CellViT Model</CustomizedTypographyRaleway> 
@@ -69,14 +70,14 @@ function Model() {
   </Grid>
 
 
-  <Grid container spacing={3}>  
+  <Grid style={{margin:"auto", }} container spacing={3}>  
   <Grid item xs={12} md= {7}>
   <img 
   src={fine_tuned_model} 
-  alt="drugiscoveryimage" 
+  alt="fine_tuned_model" 
   loading="lazy" 
   width={isMatch ? "100%" : "85%"}
-  style={{marginLeft:'10%'}}/>
+  />
   </Grid>
   <Grid item xs={12} md= {5}>
   <CustomizedTypographyRaleway fontWeight = "bold" fontSize={{ lg:30, md:25, sm:20, xs:18}} padding={2} variant="h5">Fine-tuning with PyTorch</CustomizedTypographyRaleway>  
@@ -138,8 +139,8 @@ function Model() {
   src={w_and_b_runs} 
   alt="w_and_b_runs" 
   loading="lazy" 
-  width={isMatch ? "100%" : "85%"}
-  style={{marginLeft:'10%'}}/>
+  width={isMatch ? "85%" : "85%"}
+  />
   </Grid>
   <Grid item xs={12} md= {5}>
   <CustomizedTypographyRaleway fontWeight = "bold" fontSize={{ lg:30, md:25, sm:20, xs:18}} padding={2} variant="h5">Observability with Weights & Biases</CustomizedTypographyRaleway>  
