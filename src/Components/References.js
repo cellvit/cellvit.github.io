@@ -4,7 +4,7 @@ import { CustomizedTypographyLexendExtraLight } from '../styles/styles';
 
 function References() {
   return (
-    <Box padding ={10} justifyContent="center" alignItems="center" width="100%">    
+    <Box style={{marginTop:"7rem", marginLeft:"auto", marginRight:"auto", marginBottom:"auto"}} justifyContent="center" width="100%">    
     <CustomizedTypographyLexendExtraLight fontSize={{ lg:20, md:15, sm:12, xs:12 }} variant="body2">
    <ol>
     <li><Link href="https://www.yourgenome.org/facts/how-are-drugs-designed-and-developed/" underline="none">How are drugs designed and developed?</Link></li>
