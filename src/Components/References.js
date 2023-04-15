@@ -1,10 +1,10 @@
 import React from 'react'
-import { Link } from "@mui/material";
+import { Link, Box } from "@mui/material";
 import { CustomizedTypographyLexendExtraLight } from '../styles/styles';
 
 function References() {
   return (
-    <div style={{margin:"10rem", }} >    
+    <Box padding ={10} justifyContent="center" alignItems="center" width="100%">    
     <CustomizedTypographyLexendExtraLight fontSize={{ lg:20, md:15, sm:12, xs:12 }} variant="body2">
    <ol>
     <li><Link href="https://www.yourgenome.org/facts/how-are-drugs-designed-and-developed/" underline="none">How are drugs designed and developed?</Link></li>
@@ -25,7 +25,7 @@ function References() {
     <li><Link href="https://github.com/google-research/maxvit" underline="none">MaxViT: Multi-Axis Vision Transformer (ECCV 2022)</Link></li>
   </ol>
 </CustomizedTypographyLexendExtraLight>
-    </div>
+    </Box>
   )
 }
 
