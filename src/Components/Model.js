@@ -31,7 +31,7 @@ function Model() {
 
  <CustomizedTypographyLexendExtraLight fontSize={{ lg:20, md:15, sm:12, xs:12 }} variant="body2">
   <ul>
-    <li><Link href="https://huggingface.co/cellvit/maxvit-large-tf-224/tree/main" underline="none"> CellViT</Link> is a fine-tuned model based on <Link href="https://github.com/google-research/maxvit" underline="none"> MaxViT</Link><sup>16</sup>, a family of hybrid (CNN+ViT) image classification models that achieves better performance than both SoTA ConvNet and Transformer models. </li>
+    <li><Link href="https://huggingface.co/cellvit/maxvit-large-tf-224/tree/main" underline="none"> CellViT</Link> is a fine-tuned model based on <Link href="https://github.com/google-research/maxvit" underline="none"> MaxViT</Link><sup>12</sup>, a family of hybrid (CNN+ViT) image classification models that achieves better performance than both SoTA ConvNet and Transformer models. </li>
     <li>The MaxViT model architecture consists of a stem, four MaxViT blocks and a Head with pooling and fully connected layers. Each MaxViT block is made up of three components: 1) an inverted linear bottleneck layer from MobileNetV2  (the basic building block of EfficientNet architectures), 2) the local, block attention mechanism, and 3) the global, grid attention mechanism.</li>
     </ul>
 </CustomizedTypographyLexendExtraLight>
@@ -53,8 +53,8 @@ function Model() {
 
  <CustomizedTypographyLexendExtraLight fontSize={{ lg:20, md:15, sm:12, xs:12 }} variant="body2">
   <ul>
-    <li>A typical CNN gradually obtains a global receptive field by multi-layer architectures and down-sampling operators. Some of the initial Vision transformer implementations gather long range visual dependencies with a single, self-attention layer, but this is infeasible at larger dimensions because the attention operator requires quadratic complexity.<sup>16</sup></li>
-    <li>MaxViT uses a block self-attention structure for sparse local attention and a grid self-attention structure for sparse global attention.</li>
+    <li>A typical CNN gradually obtains a global receptive field by multi-layer architectures and down-sampling operators. Some of the initial Vision transformer implementations gather long range visual dependencies with a single, self-attention layer, but this is infeasible at larger dimensions because the attention operator requires quadratic complexity.<sup>12</sup></li>
+    <li>MaxViT uses a block self-attention structure for sparse local attention and a grid self-attention structure for sparse global attention.<sup>13</sup></li>
     </ul>
 </CustomizedTypographyLexendExtraLight>
   </Grid>

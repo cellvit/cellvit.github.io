@@ -64,7 +64,7 @@ The goal of this project is to provide a proof of concept model using the multi-
   </Grid>
   <Grid item xs={12} md= {5}>
   <CustomizedTypographyRaleway fontWeight = "bold" fontSize={{ lg:30, md:25, sm:20, xs:18}} padding={2} variant="h5">Why does Cell Painting matter?</CustomizedTypographyRaleway>
-  <CustomizedTypographyLexendExtraLight fontSize={{ lg:20, md:15, sm:12, xs:12}} padding={1} variant="body1">Today, nine out of ten drugs fail in clinical trials. Furthermore, it takes over a decade and an average cost of $2 billion to develop and approve each medicine.<sup>2</sup></CustomizedTypographyLexendExtraLight>
+  <CustomizedTypographyLexendExtraLight fontSize={{ lg:20, md:15, sm:12, xs:12}} padding={1} variant="body1">Today, nine out of ten drugs fail in clinical trials. Furthermore, it takes over a decade and an average cost of $2 billion to develop and approve each medicine.<sup>5</sup></CustomizedTypographyLexendExtraLight>
   <CustomizedTypographyLexendExtraLight fontSize={{ lg:20, md:15, sm:12, xs:12}} padding={1} variant="body1">Promising in vitro (lab tested) candidates often fail in the real-world clinical testing, as in vitro models turn out to be insufficiently predictive and translatable to the clinical setting.</CustomizedTypographyLexendExtraLight>
   <CustomizedTypographyLexendExtraLight fontSize={{ lg:20, md:15, sm:12, xs:12}} padding={1} variant="body1">Cell Painting is a high-content, multiplexed image-based assay used for cytological profiling.  Cell painted image profiles can be used to identify the biological impact of novel drugs by comparing the induced morphological profile with the profiles of reference compounds or gene expressions.</CustomizedTypographyLexendExtraLight>
   
@@ -79,9 +79,9 @@ The goal of this project is to provide a proof of concept model using the multi-
 
  <CustomizedTypographyLexendExtraLight fontSize={{ lg:20, md:15, sm:12, xs:12 }} variant="body2">
   <ul>
-    <li>KRAS is one of the most prevalent oncogenes in human cancers with the highest mutation rate among all cancers.<sup>5,6</sup></li>
-    <li>KRAS mutations cause three deadliest types of cancer in the United States: pancreatic (95%), colorectal(45%) and lung(35%).<sup>7</sup></li>
-    <li>Over four decades of research have failed to produce a clinically viable KRAS cancer therapy (drugs that block the function of the KRAS oncoprotein for cancer treatment)<sup>8</sup></li>
+    <li>KRAS is one of the most prevalent oncogenes in human cancers with the highest mutation rate among all cancers.<sup>6,7</sup></li>
+    <li>KRAS mutations cause three deadliest types of cancer in the United States: pancreatic (95%), colorectal(45%) and lung(35%).<sup>8</sup></li>
+    <li>Over four decades of research have failed to produce a clinically viable KRAS cancer therapy (drugs that block the function of the KRAS oncoprotein for cancer treatment)<sup>9</sup></li>
     <li>Morpohological profiles produced for KRAS can enable researchers to find novel drugs/compounds that suppress its signaling pathways to block the function of the KRAS oncoprotein.</li>
     </ul>
 </CustomizedTypographyLexendExtraLight>
