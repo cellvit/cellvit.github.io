@@ -53,7 +53,7 @@ function Model() {
 
  <CustomizedTypographyLexendExtraLight fontSize={{ lg:20, md:15, sm:12, xs:12 }} variant="body2">
   <ul>
-    <li>A typical CNN gradually obtains a global receptive field by multi-layer architectures and down-sampling operators. Some of the initial Vision transformer implementations gather long range visual dependencies with a single, self-attention layer, but this is infeasible at larger dimensions because the attention operator requires quadratic complexity.14</li>
+    <li>A typical CNN gradually obtains a global receptive field by multi-layer architectures and down-sampling operators. Some of the initial Vision transformer implementations gather long range visual dependencies with a single, self-attention layer, but this is infeasible at larger dimensions because the attention operator requires quadratic complexity.<sup>16</sup></li>
     <li>MaxViT uses a block self-attention structure for sparse local attention and a grid self-attention structure for sparse global attention.</li>
     </ul>
 </CustomizedTypographyLexendExtraLight>
@@ -98,7 +98,7 @@ function Model() {
 
  <CustomizedTypographyLexendExtraLight fontSize={{ lg:20, md:15, sm:12, xs:12 }} variant="body2">
   <ul>
-    <li>For hyper parameter tuning, we started by following the general recommendations given to us for fine tuning a MaxViT large model on the original paper15 and adjusted them as we went.</li>
+    <li>For hyper parameter tuning, we started by following the general recommendations given to us for fine tuning a MaxViT large model on the original paper<sup>17</sup> and adjusted them as we went.</li>
     <li>Due to gpu memory limitations in AWS (24Gb), we limited the batch size to 16.</li>
     </ul>
 </CustomizedTypographyLexendExtraLight>
