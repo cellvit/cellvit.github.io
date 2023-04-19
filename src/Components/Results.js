@@ -14,6 +14,7 @@ import maxvit_class_cosine_similarity from './Assets/maxvit_class_cosine_similar
 import predictedclass_similarity from './Assets/predictedclass_similarity.PNG';
 import pearson_corelation from './Assets/pearson_corelation.png';
 import how_to_use_CellViT from './Assets/how_to_use_CellViT.png';
+import pearson_correlation_subtitle from './Assets/pearson_correlation_subtitle.png';
 
 
 function Results() {
@@ -100,6 +101,12 @@ function Results() {
   <img 
   src={pearson_corelation} 
   alt="pearson_corelation" 
+  loading="lazy" 
+  width={isMatch ? "85%" : "85%"}
+  style={{marginRight:'10%'}}/>
+  <img 
+  src={pearson_correlation_subtitle} 
+  alt="pearson_correlation_subtitle" 
   loading="lazy" 
   width={isMatch ? "85%" : "85%"}
   style={{marginRight:'10%'}}/>
