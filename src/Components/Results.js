@@ -34,13 +34,13 @@ function Results() {
     <li>Most importantly, the gene variant classification accuracy is very robust as shown below in the precision/recall/F1 test results:</li>    
   </ul>
 </CustomizedTypographyLexendExtraLight>
-<Grid item xs={12} md= {7} lg={5}>
+<Grid item xs={8} md= {8} lg={8}>
   <img 
   src={precision_recall} 
   alt="precision_recall" 
   loading="lazy" 
   width={isMatch ? "85%" : "85%"}
-  style={{marginRight:'10%'}}/>
+  style={{marginRight:'10%', paddingLeft:'100px'}}/>
   </Grid>
 
 
@@ -73,20 +73,20 @@ function Results() {
     <li>The cosine similarities of certain gene class predictions show to be moderately strong.</li>
     </ul>
 </CustomizedTypographyLexendExtraLight>
-<Grid item xs={12} md= {7} lg={5}>
+<Grid item xs={8} md= {8} lg={8}>
   <img 
   src={predictedclass_similarity} 
   alt="predictedclass_similarity" 
   loading="lazy" 
   width={isMatch ? "100%" : "150%"}
-  style={{marginRight:'10%'}}/>
+  style={{marginRight:'10%', paddingLeft:'100px'}}/>
   </Grid>
   </Grid>  
   </Grid>
 
 
   <Grid style={{margin:"auto", marginTop:"5rem" }} container spacing={3}>
-  <Grid item xs={12} md= {5} lg={7}>
+  <Grid item xs={12} md= {4} lg={4}>
   <CustomizedTypographyRaleway fontWeight = "bold" fontSize={{ lg:30, md:25, sm:20, xs:18 }} padding={2} variant="h4">Predicted class cosine similarities align with Pearson correlations of cell images</CustomizedTypographyRaleway>
   <CustomizedTypographyLexendExtraLight fontSize={{ lg:20, md:15, sm:12, xs:12 }} variant="body2">
   <ul>
@@ -96,7 +96,7 @@ function Results() {
 </CustomizedTypographyLexendExtraLight>
   </Grid>
   {/* <Grid item xs={12} md= {6}></Grid> */}
-  <Grid item xs={12} md= {7} lg={5}>
+  <Grid item xs={12} md= {8} lg={8}>
   <img 
   src={pearson_corelation} 
   alt="pearson_corelation" 
