@@ -79,7 +79,7 @@ function Results() {
   src={predictedclass_similarity} 
   alt="predictedclass_similarity" 
   loading="lazy" 
-  width={isMatch ? "100%" : "150%"}
+  width={isMatch ? "100%" : "130%"}
   style={{marginRight:'10%', paddingLeft:'100px'}}/>
   </Grid>
   </Grid>  
