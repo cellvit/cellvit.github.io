@@ -15,7 +15,7 @@ function Home() {
   return (
     <>
       <Box>
-        <img src={callpaintimage2} alt="cellpaint" style={{ width: "100%",position: "absolute", height: "90vh", objectFit: "cover" }} />
+        <img src={callpaintimage2} alt="cellpaint" style={{ width: "100%",position: "absolute", height: "100vh", objectFit: "cover" }} />
         <div
           style={{
             position: "relative",
